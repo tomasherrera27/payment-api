@@ -126,3 +126,18 @@ payment-api/
 ## License
 
 [MIT licensed](LICENSE)
+
+## API Documentation
+
+### Swagger UI
+The API documentation is available through Swagger UI at:
+```
+http://localhost:3000/api
+```
+
+### Postman Collection
+A Postman collection is included in the root directory (`postman_collection.json`). To use it:
+1. Open Postman
+2. Click on "Import"
+3. Select the `postman_collection.json` file
+4. The collection will be imported with all endpoints and example responses
