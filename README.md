@@ -75,6 +75,11 @@ PATCH /transactions/{id}/approve
 - Returns 400 if transaction is not in PENDING state
 - Returns 404 if transaction not found
 
+Example:
+```bash
+curl -X PATCH http://localhost:3000/transactions/1/approve
+```
+
 #### Reject Transaction
 ```http
 PATCH /transactions/{id}/reject
@@ -82,6 +87,11 @@ PATCH /transactions/{id}/reject
 - Rejects a pending transaction
 - Returns 400 if transaction is not in PENDING state
 - Returns 404 if transaction not found
+
+Example:
+```bash
+curl -X PATCH http://localhost:3000/transactions/1/reject
+```
 
 ## Transaction States
 
